@@ -6,6 +6,8 @@ const authRouter = Router()
 // auth router
 authRouter.post("/register", authController.registerUserController)
 authRouter.post("/login", authController.loginUserController)
+authRouter.get("/logout", authController.logoutUserController)
+
 
 
 
